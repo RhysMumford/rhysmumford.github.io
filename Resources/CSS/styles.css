@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+	padding: 20px;
+}
+ol, ul {
+    list-style: none;
+}
+
+.main_section {
+	margin-top: 60px;
+}
+body {
+	font-family: "Merriweather", arial, sans-serif;
+}
+
+H1 {
+	font-family: "Delius Swash Caps", arial;
+	background-color: #2A91BF;
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+
+table {
+	margin: 60px;
+	width: 80%;
+	border: 2px solid lightslategray;
+	padding: 20px;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+header H2 {
+	font-family: "Delius Swash Caps";
+	font-style: italic;
+	text-align: center;
+	color: #2A91BF;
+}
+
+H2 {
+	color: #2A91BF;
+}
+
+.main_section {
+	padding: 10px 50px;
+
+}
+
+tr {
+	text-align: center;
+	border: 2px solid lightslategray;
+
+}
+
+td {
+	border: 2px solid lightslategray;
+}
+
+th {
+	border: 2px solid lightslategrey;
+	background-color: #2A91BF;
+	color: white;
+}
+
+strong {
+	color: darkorange;
+	font-weight: bold;
+}
+
+td, tr, th {
+	padding: 20px;
+	margin: 20px;
+}
+
+.table {
+	margin-top: 50px;
+	margin-bottom: 50px
+}
+
+.code {
+	text-align: center;
+	font-family: monospace;
+	background-color: lightslategray;
+	font-size: 20px;
+	color: orange;
+	padding: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+
+footer {
+	min-height: 100px;
+background-color: #2A91BF;}

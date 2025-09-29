@@ -1,9 +1,62 @@
-<html>
-
+<!DOCTYPE HTML>
+<head>
+	<link rel="stylesheet" href="Resources/CSS/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
 <body>
-  <h1>RHYS MUMFORD</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+	<header>
+		<h1>CSS - what's your position?</h1>
+		<h2>A little guide to positioning elements in CSS</h2>
+	</header>
+	<section class="main_section">
+		<h2>The five positions of CSS</h2>
+		<p>The <strong>position</strong> property in CSS is a very important one: it determines where elements are shown on the page and how they interact with the browser window and other elements.</p>
+		<div class="table">
+		<table>
+			<tr>
+				<th>Position</th>
+				<th>What it does</th>
+				<th>Notes</th>
+			</tr>
+			<tr>
+				<td>static</td>
+				<td>Elements are positioned according to the normal flow of the page.</td>
+				<td>This is the default position</td>
+			</tr>
+			<tr>
+				<td>relative</td>
+				<td>The element has a fixed position on the page, just like <strong>static </strong> but it can be moved out of position using top, right, bottom and left properties. Other elements respond to the original position of the element, which is kept there like a ghost.</td>
+				<td> - </td>
+			</tr>
+			<tr>
+				<td>fixed</td>
+				<td>The element is fixed in place relative to the viewport. It will always stay in place as the page is scrolled and it doesn't leave an impression from its original position.</td>
+				<td> - </td>
+			</tr>
+			<tr>
+				<td>absolute</td>
+				<td>The element is fixed in place relative to its nearest element. If there is no element for it to latch onto, it will latch to the page and move along with the page as you scroll.</td>
+				<td>The element it is attached to needs to have a position that is NOT <strong> static </strong>.
+			</tr>
+			<tr>
+				<td>sticky</td>
+				<td>Sticky toggles between a relative and a fixed position. It's positioned in a relative way until a certain scroll position is reached. Then it acts like a fixed element. </td>
+				<td>You have to specify a distance for this to work - either left, right, top or bottom.</td>
+			</tr>
+		</table>
+	</div>
+	<div class="CSS_format">
+	<h2>How to write the CSS</h2>
+	<p>The syntax for the position of an element is as follows:</p>
+	<p class="code">{position: static;}</p>
+</div>
+	</section>
 </body>
+<footer>
+</footer>
 
-</html>
+</HTML>
